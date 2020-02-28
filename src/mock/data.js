@@ -19,12 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    "I'm a professional and passionate Software Developer focused on efficiency and constant learning.",
+    'I am a Software Developer with enthusiasm and focus on frontend development and scripting.',
   paragraphTwo:
-    'I have created solutions for my clients by improving their web development processes and accomplish their ideas come true, either from the front-end or the back-end mostly using JavaScript, React, Gatsby, Node, Express.js & MongoDB.',
-  paragraphThree:
-    'I would love to set up an introduction call to discuss how I could help your business and make your goals happen.',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+    'I am passionate about building scalable software, creating effective solutions, and learning every day to grow professionally in the IT field.',
+  paragraphThree: 'Feel free to contact me via email at any time',
+  resume: 'https://bit.ly/395e1oo', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -103,8 +102,8 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '"Would you like to work with me? Awesome!',
-  btn: "Let's Talk",
+  cta: 'Would you like to work with me? Awesome!',
+  btn: "Let's build together!",
   email: 'cobimr@protonmail.com',
 };
 
@@ -114,7 +113,7 @@ export const footerData = {
     {
       id: uuidv1(),
       name: 'twitter',
-      url: 'https://twitter.com/cobidec',
+      url: 'https://twitter.com/cobidev',
     },
     {
       id: uuidv1(),
@@ -124,7 +123,7 @@ export const footerData = {
     {
       id: uuidv1(),
       name: 'linkedin',
-      url: 'https://likedin.com/in/cobidev',
+      url: 'https://linkedin.com/in/cobidev',
     },
     {
       id: uuidv1(),
@@ -136,5 +135,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
