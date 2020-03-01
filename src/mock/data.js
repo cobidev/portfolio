@@ -2,7 +2,7 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: 'Jacobo Martinez | Software Developer', // e.g: 'Name | Developer'
+  title: 'Jacobo Martinez | Web Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Jacobo Martinez official website', // e.g: Welcome to my website
 };
@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'I am a Software Developer with enthusiasm and focus on frontend development and scripting.',
+    'I am a Web Developer with enthusiasm and focus on frontend development and scripting.',
   paragraphTwo:
     'I am passionate about building scalable software, creating effective solutions, and learning every day to grow professionally in the IT field.',
   paragraphThree: 'Feel free to contact me via email at any time',
